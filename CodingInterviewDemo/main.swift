@@ -14,4 +14,7 @@ print("Hello, World!")
 //testDuplication()
 
 // Test 3-2.数组中重复的数字(不改变数组)
-testDuplication2()
+//testDuplication2()
+
+// Test 4.二维数组中的查找
+testFindInTwoDimArray()

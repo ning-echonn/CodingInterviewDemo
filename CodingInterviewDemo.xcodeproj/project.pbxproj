@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954D5BB121DCBB4400176255 /* FindInTwoDimArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954D5BB021DCBB4400176255 /* FindInTwoDimArray.swift */; };
 		95D7CDAC21D618BC00F863D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7CDAB21D618BC00F863D3 /* main.swift */; };
 		95D7CDB421D6191900F863D3 /* DuplicationInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7CDB321D6191900F863D3 /* DuplicationInArray.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		954D5BB021DCBB4400176255 /* FindInTwoDimArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindInTwoDimArray.swift; sourceTree = "<group>"; };
 		95D7CDA821D618BC00F863D3 /* CodingInterviewDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingInterviewDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D7CDAB21D618BC00F863D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		95D7CDB321D6191900F863D3 /* DuplicationInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicationInArray.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		954D5BAF21DCBA9F00176255 /* 4.二维数组中的查找 */ = {
+			isa = PBXGroup;
+			children = (
+				954D5BB021DCBB4400176255 /* FindInTwoDimArray.swift */,
+			);
+			path = "4.二维数组中的查找";
+			sourceTree = "<group>";
+		};
 		95D7CD9F21D618BB00F863D3 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 		95D7CDAA21D618BC00F863D3 /* CodingInterviewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				954D5BAF21DCBA9F00176255 /* 4.二维数组中的查找 */,
 				95D7CDB221D618CF00F863D3 /* 3.数组中重复的数字 */,
 				95D7CDAB21D618BC00F863D3 /* main.swift */,
 			);
@@ -132,6 +143,7 @@
 			files = (
 				95D7CDAC21D618BC00F863D3 /* main.swift in Sources */,
 				95D7CDB421D6191900F863D3 /* DuplicationInArray.swift in Sources */,
+				954D5BB121DCBB4400176255 /* FindInTwoDimArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
